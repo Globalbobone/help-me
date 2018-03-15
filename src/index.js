@@ -25,7 +25,7 @@ module.exports = function count(s, pairs) {
     }
   }
 
-  return k % 1000000007;
+  return k;
 
   function gcd (a,b) {return (!b) ? a : gcd(b, a % b);};
 
